@@ -1,6 +1,7 @@
-def lists_sum():
-    list1 = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15]
-    list2 = [7, 8, 9, 10, 11, 12, 13, 14, 15]
+list1 = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15]
+list2 = [7, 8, 9, 10, 11, 12, 13, 14, 15]
+
+def lists_sum(list1, list2):
     lists_summary = []
     biggest_list = max(len(list1), len(list2))
 
@@ -11,4 +12,4 @@ def lists_sum():
     print(lists_summary)
 
 
-lists_sum()
+lists_sum(list1, list2)
